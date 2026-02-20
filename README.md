@@ -62,8 +62,7 @@ npm run build
 
 The `dist/` folder is prebuilt and can be served directly from any static file server:
 
-```bash
-npx nws -d dist
+
 # or
 npm run preview
 ```
