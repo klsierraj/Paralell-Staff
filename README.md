@@ -2,6 +2,8 @@
 
 An image slider rendered entirely on a single `<canvas>` element, built with Vue 3 and TypeScript.
 
+**Live demo:** https://publitas.netlify.app/
+
 **Tested on:** Chrome (latest)
 
 ---
@@ -58,19 +60,4 @@ npm run dev
 npm run build
 ```
 
-## Run from dist
 
-The `dist/` folder is prebuilt and can be served directly from any static file server:
-
-
-# or
-npm run preview
-```
-
----
-
-## What I would improve with more time
-
-- **Momentum / inertia on release** — carry the velocity of the drag into a decelerating animation after `pointerup`, making fast flicks feel natural
-- **Keyboard navigation** — left/right arrow keys to jump between images
-- **Lazy loading** — for large image sets, only load images near the current viewport position
